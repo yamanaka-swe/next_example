@@ -1,5 +1,20 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## Project Setup
+
+This project was created using the following command:
+
+```bash
+npx create-next-app@latest . --typescript --tailwind --eslint --app --src-dir --import-alias "@/*"
+```
+
+Features included:
+- TypeScript configuration
+- Tailwind CSS for styling
+- ESLint for code linting
+- App Router with src directory structure
+- Turbopack enabled for development
+
 ## Getting Started
 
 First, run the development server:
